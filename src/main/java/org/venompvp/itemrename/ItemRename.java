@@ -37,7 +37,7 @@ public class ItemRename extends JavaPlugin {
 
                 meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', name));
                 item.setItemMeta(meta);
-                player.sendMessage(ChatColor.GREEN + "Item has been renamed to " + ChatColor.YELLOW + name);
+                player.sendMessage(ChatColor.GREEN + "Item has been renamed to " + ChatColor.YELLOW + item.getItemMeta().getDisplayName());
                 return true;
             } else {
                 player.sendMessage(ChatColor.RED + "Please hold an item to rename.");
