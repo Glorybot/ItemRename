@@ -1,6 +1,7 @@
 name: ItemRename
 main: org.venompvp.itemrename.ItemRename
 author: corin22225
+version: 1.0
 description: Allows players to rename items with ease.
 commands:
   rename:
